@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>php page</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style3.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" type="text/css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">HAPPY FAMILY</a>
+  
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="view.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacts</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="jumbotron">
+  <h1>PARIVAAR</h1>
+  <p>ESSENCE OF LOVE AND CARE</p>
+</div>
+<div class="py-4">
+<h2 class="text-center"><u> About Us</u></h2>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-70">
+<img src="images/logo.png" class="img-fluid aboutimg">
+</div>
+<div class="col-lg-6 col-md-6 col-70">
+<h2>THE EXIQUISITE FAMILY</h2>
+<p class="py-2"> <h4>Family refers to the group of individuals, connected to each other either by birth or by relationships like marriage,adoption,etc.
+My family is small nuclear family belonging to the middle class category.There are 5 members in my family.The members of my family are my father,mother,elder brother,younger brother and me.
+My father is a teacher and my mother is a housewife.My elder brother and I are B.tech engineers from the branch of Electronics and communication engineering.My younger brother studies in class 10.My father is the head of the family and primarily takes all the important decisions.</h4>
+</p>
+<a href="view.php" class="btn btn-success">GO TO HOME</a>
+</div>
+</div>
+</div>
+<footer>
+  <p class="p-3 bg-dark text-white text-center">@ISHU KA PURA PARIVAR</p>
+</footer>
+</body>
+</html>
